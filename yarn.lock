@@ -2,32 +2,30 @@
 # yarn lockfile v1
 
 
-"@appbaseio/reactivecore@^8.1.6":
-  version "8.1.6"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-8.1.6.tgz#11ae73f635ed8966f2ff26fe0aa7560e747a3ed7"
-  integrity sha512-qPdw72PHtnAybByhJcdlS+4NuxQhtumUMywpCXsBR0GS+JOpop9RXgTDIWrRcF17OgV6UyvF9nAdTAQmyNxtCQ==
+"@appbaseio/reactivecore@^7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-7.6.0.tgz#ef28957730dc01ceb2e254eb958686d733143f9a"
+  integrity sha512-kUVtK9Oaw0Fcm+riNuTcVUkhK5d1uT3CwfIVhpZCCWB75jscWFjjCnUYA5N8tJX29nlH5xvJesWsghh+xorHBA==
   dependencies:
     prop-types "^15.6.0"
     redux "^4.0.0"
     redux-thunk "^2.3.0"
 
-"@appbaseio/reactivesearch@^3.0.0-rc.8":
-  version "3.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch/-/reactivesearch-3.0.0-rc.8.tgz#3ee56d06da5035b6ed4b8d813e10e16d485da685"
-  integrity sha512-XrOg/fIGcNzNf7eMFbTWgbCc66jhXzhHuWwT6cE/E80KL/1xSgKjR2T+rOypN9CGyd9o7oCgo5gODlRV/5gAwA==
+"@appbaseio/reactivesearch@^2.5.1":
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch/-/reactivesearch-2.18.0.tgz#9915b1c326000a484badccd507d3306d0ca51803"
+  integrity sha512-tskPVcgl8v+/HDdCzCsibI9Uo20nEnwIQ46bwHKGf9biaW8zBDKIV8aI2DNLFqiutBtzrnVvTiYvK7a/2vGn2g==
   dependencies:
-    "@appbaseio/reactivecore" "^8.1.6"
-    appbase-js "^4.0.2-beta.05"
+    "@appbaseio/reactivecore" "^7.6.0"
+    appbase-js "^4.0.2-beta.5"
     cross-env "^5.2.0"
     downshift "^1.31.2"
     emotion "^9.0.0"
     emotion-theming "^9.0.0"
-    hoist-non-react-statics "^3.2.1"
     polished "^1.9.3"
     prop-types "^15.6.0"
     react-day-picker "^7.0.5"
     react-emotion "^9.0.0"
-    react-highlight-words "^0.14.0"
     react-redux "^5.0.7"
     rheostat "^2.1.1"
     url-search-params "^0.10.0"
@@ -1699,10 +1697,10 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-appbase-js@^4.0.2-beta.05:
-  version "4.0.2-beta.5"
-  resolved "https://registry.yarnpkg.com/appbase-js/-/appbase-js-4.0.2-beta.5.tgz#456eecb825f124b996bfd617aab47c1f2a95d087"
-  integrity sha512-SEvYFK4oCQ4WcQUiTj2e2E/hbFiZNihmd2562aXyXQp7i5vg2O2G/cxOmesUFfKBq0C1aOOxSfBz5m0yuklUqg==
+appbase-js@^4.0.2-beta.5:
+  version "4.0.2-beta.6"
+  resolved "https://registry.yarnpkg.com/appbase-js/-/appbase-js-4.0.2-beta.6.tgz#fe2a9e4c9963edc6f8c0b9b5508a915a5b6d45d1"
+  integrity sha512-tnnXy4uX5A9QmW6Ve0EpqaPVnXBfKe/n1qX+6noGti9NF+9i80+EB0dh/N4Da+0oLSTmLbXaG7CmKaTejtgkRg==
   dependencies:
     cross-fetch "^2.2.2"
     json-stable-stringify "^1.0.1"
@@ -4613,11 +4611,6 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
-highlight-words-core@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/highlight-words-core/-/highlight-words-core-1.2.2.tgz#1eff6d7d9f0a22f155042a00791237791b1eeaaa"
-  integrity sha512-BXUKIkUuh6cmmxzi5OIbUJxrG8OAk2MqoL1DtO3Wo9D2faJg2ph5ntyuQeLqaHJmzER6H5tllCDA9ZnNe9BVGg==
-
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -4632,7 +4625,7 @@ hoist-non-react-statics@^2.3.1:
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
   integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
-hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.2.1:
+hoist-non-react-statics@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
   integrity sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==
@@ -6169,11 +6162,6 @@ mem@^4.0.0:
     map-age-cleaner "^0.1.1"
     mimic-fn "^2.0.0"
     p-is-promise "^2.0.0"
-
-memoize-one@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
-  integrity sha512-2GApq0yI/b22J2j9rhbrAlsHb0Qcz+7yWxeLG8h+95sl1XPUgeLimQSOdur4Vw7cUhrBHwaUZxWFZueojqNRzA==
 
 memory-fs@^0.4.0, memory-fs@^0.4.1, memory-fs@~0.4.1:
   version "0.4.1"
@@ -7875,7 +7863,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8105,15 +8093,6 @@ react-error-overlay@^5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
   integrity sha512-X1Y+0jR47ImDVr54Ab6V9eGk0Hnu7fVWGeHQSOXHf/C2pF9c6uy3gef8QUeuUiWlNb0i08InPSE5a/KJzNzw1Q==
-
-react-highlight-words@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/react-highlight-words/-/react-highlight-words-0.14.0.tgz#a1a40ff0a49ce78e7feb375a4e0a5fd1ca9c9609"
-  integrity sha512-DNp1zAIiNqs1nunFv5K67ca0KVSKihbmpZLNwqQj61yMK6zf8YHoGrpLlEt7WEqj1227FOm41FuXiv9KZgcwdA==
-  dependencies:
-    highlight-words-core "^1.2.0"
-    memoize-one "^4.0.0"
-    prop-types "^15.5.8"
 
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"
