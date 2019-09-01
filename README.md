@@ -1,6 +1,6 @@
 # Airbnb-close
 
-This clone was great practice to render components in react and work with elastic search. 
+I built up thisfront end Airbnb clone of rental listings. This clone was great practice to render components in react and work with elastic search. 
 
 ## Getting Started
 
